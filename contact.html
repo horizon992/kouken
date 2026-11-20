@@ -266,7 +266,9 @@
             <form
                 class="contact-form"
                 action="#"
-                method="post">
+                method="post"
+                novalidate
+                onsubmit="event.preventDefault(); window.alert('送信できません\n\nこのサイトはポートフォリオ用のサンプルです。\nお問い合わせフォームの送信はできません。'); return false;">
 
 
                 <!-- お名前 -->
@@ -625,7 +627,7 @@
     JS
 ====================================== -->
 
-<script src="js/script.js"></script>
+<script src="js/script.js?v=20261120"></script>
 
 
 </body>
